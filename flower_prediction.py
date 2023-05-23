@@ -52,7 +52,7 @@ from google.colab import drive
 drive.mount('/content/drive')
 
 # Load the saved model
-model_path = "/content/drive/My Drive/ColabNotebooks/Modelsko/my_model.h5"
+model_path = "/content/drive/My Drive/ColabNotebooks/Modelsko/f_model.h5"
 model = load_model(model_path)
 
 # Function to preprocess and predict the image
