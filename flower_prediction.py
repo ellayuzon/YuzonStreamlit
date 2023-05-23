@@ -48,8 +48,8 @@ val_ds = tf.keras.preprocessing.image_dataset_from_directory(
 class_names = train_ds.class_names
 
 #Mount google drive
-from google.colab import drive
-drive.mount('/content/drive')
+#from google.colab import drive
+#drive.mount('/content/drive')
 
 # Load the saved model
 model_path = "flower_model.h5"
