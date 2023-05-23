@@ -22,7 +22,7 @@ data_dir = tf.keras.utils.get_file('flower_photos', origin=dataset_url, untar=Tr
 data_dir = pathlib.Path(data_dir)
 
 # Create the training dataset
-img_height, img_width = 180, 180
+img_height, img_width = 150, 150
 batch_size = 32
 
 train_ds = tf.keras.preprocessing.image_dataset_from_directory(
